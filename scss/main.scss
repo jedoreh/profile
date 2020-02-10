@@ -1,0 +1,49 @@
+@import "_variables.scss";
+
+body {
+    font-family: "Exo 2", Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.page-wrapper {
+    header {
+        width: 100vw;
+        height: 100vh;
+        
+        background: $dark;
+        background: linear-gradient(to top left, $primary 50%, $dark 50%);
+
+        .logo {
+            width: 75px;
+            margin: 25px;
+        }
+
+        .title {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+
+            color: $primary;
+            font-size: 72px;
+            font-weight: 900;
+            .left {
+                transform: translate(-55%, 50%)
+            }
+            .right {
+                color: $dark;
+                transform: translate(55%, -50%)
+            }
+        }
+
+        .sub-title {
+            position: absolute;
+            left: 50%;
+            top: 60%;
+            color: $light;
+        }
+    }
+}

@@ -1,0 +1,36 @@
+body {
+  font-family: "Exo 2", Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.page_wrapper header {
+  width: 100vw;
+  height: 100vh;
+  background: #171717;
+  background: -webkit-gradient(linear, right bottom, left top, color-stop(50%, #FFCE00), color-stop(50%, #171717));
+  background: linear-gradient(to top left, #FFCE00 50%, #171717 50%);
+}
+
+.page_wrapper header .title {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #FFCE00;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.page_wrapper header .title .left {
+  -webkit-transform: translate(-55%, 50%);
+          transform: translate(-55%, 50%);
+}
+
+.page_wrapper header .title .right {
+  color: #171717;
+  -webkit-transform: translate(55%, -50%);
+          transform: translate(55%, -50%);
+}
+/*# sourceMappingURL=main.css.map */
